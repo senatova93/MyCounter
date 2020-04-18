@@ -1,0 +1,28 @@
+
+.buttons {
+  display: grid;
+  grid-template-columns: 2fr 3fr}
+.Inc {
+  display: grid;
+  width:80px ;
+  height:40px;
+
+}
+.Res {
+  display: grid;
+  width: 140px;
+  height: 40px;
+}
+.filter-active {
+  background-color: deepskyblue!Important;
+}
+
+.Inc { border-radius: 10px;
+  font-size: x-large;
+  background-color: #2b7a7e;
+  font-weight: bold}
+.Res {border-radius: 10px;
+  font-size: x-large;
+  background-color: #2b7a7e;
+  font-weight: bold;}
+

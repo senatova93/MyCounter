@@ -1,0 +1,104 @@
+body {
+    background-color: #252525;
+}
+.counterTask {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 4rem;
+    height: 100%;
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 2px;
+}
+
+.counter {
+
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    border: 2px solid #56faff;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.tablo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56faff;
+    width: 260px;
+    height: 110px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #56faff;
+    width: 260px;
+    height: 110px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    font-size: 70px;
+
+}
+
+.buttons {
+    width: 260px;
+    height: 100px;
+    border: 2px solid #56faff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+.incriment {
+    display: grid;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+}
+.Inc { border-radius: 10px;
+font-size: x-large;
+background-color: #2b7a7e;
+font-weight: bold}
+
+.reset {
+    display: grid;
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+}
+.Res {border-radius: 10px;
+font-size: x-large;
+background-color: #2b7a7e;
+    font-weight: bold;
+}
+
+.Inc.filter-active {
+    background-color: deepskyblue!Important;
+}
