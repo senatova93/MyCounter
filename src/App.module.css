@@ -82,10 +82,10 @@ body {
     height: 40px;
     padding: 10px;
 }
-.Inc { border-radius: 10px;
-font-size: x-large;
-background-color: #2b7a7e;
-font-weight: bold}
+/*.Inc { border-radius: 10px;*/
+/*font-size: x-large;*/
+/*background-color: #2b7a7e;*/
+/*font-weight: bold}*/
 
 .reset {
     display: grid;
@@ -93,12 +93,12 @@ font-weight: bold}
     height: 40px;
     padding: 10px;
 }
-.Res {border-radius: 10px;
-font-size: x-large;
-background-color: #2b7a7e;
-    font-weight: bold;
-}
+/*.Res {border-radius: 10px;*/
+/*font-size: x-large;*/
+/*background-color: #2b7a7e;*/
+/*    font-weight: bold;*/
+/*}*/
 
-.Inc.filter-active {
-    background-color: deepskyblue!Important;
-}
+/*.Inc.filter-active {*/
+/*    background-color: deepskyblue!Important;*/
+/*}*/
