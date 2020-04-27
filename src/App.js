@@ -12,15 +12,6 @@ class App extends React.Component {
       changeButtonStyleInc: true,
       changeButtonStyleReset: false,
   }
-// changeFilter = (newFilterValue) => {
-//       this.setState({ filterValue:newFilterValue})
-
-// }
-//          changeFilter = () => {
-//       if (state.num = 0) {
-//
-//       }
-
 
 
 
@@ -49,8 +40,8 @@ class App extends React.Component {
         this.setState({num:0,
              classToggleInc: false,
              classToggleReset: true,
-            changeButtonStyleInc: false,
-            changeButtonStyleReset: true,})
+            changeButtonStyleInc: true,
+            changeButtonStyleReset: false})
 
 
     };
