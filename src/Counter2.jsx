@@ -4,6 +4,9 @@ import s from './Button.module.css'
 
 class Counter2 extends React.Component {
     state = {
+        startValue: 0,
+        maxValue: 100,
+
         add: [],
         num: 0,
 
@@ -56,26 +59,21 @@ class Counter2 extends React.Component {
             <div className={style.counterTask2}>
                 <div className={style.counter2}>
                     <div className={style.all2}>
-                        <span className={style.value}> max value:  <input value={100}/> </span>
-                        <span className={style.value}> start value: <input value={100}/> </span>
+                        <span className={style.value}> max value:  <input value={this.state.maxValue}/> </span>
+                        <span className={style.value}> start value: <input value={this.state.startValue}/> </span>
                         <div className={style.buttons2}>
                             <div className={style.incriment}>
                                 <button
                                     disabled={this.state.classToggleInc}
                                     onClick={this.onIncClick}
-                                    className={s.Inc + ' ' + s[Inc]}>inc
+                                    className={s.Inc + ' ' + s[Inc]}>set
                                 </button>
                             </div>
-                            <div className={style.reset}>
-                                <button disabled={this.state.classToggleReset}
-                                        onClick={this.onResetClick}
-                                        className={s.Res + ' ' + s[Res]}>reset
-                                </button>
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         );
     }
 }
