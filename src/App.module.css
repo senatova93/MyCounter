@@ -93,6 +93,59 @@ body {
     height: 40px;
     padding: 10px;
 }
+
+
+.counterTask2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 4rem;
+    height: 100%;
+}
+
+.all2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 2px;
+}
+
+.counter2 {
+
+    width: 350px;
+    text-align: center;
+    border: 2px solid #56faff;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.value {
+
+    font-size: x-large;
+    color: #56faff;
+    font-weight: bold;
+}
+input {
+    border: 2px solid #56faff;
+    border-radius: 10px;
+    height: 25px;
+}
+.buttons2 {
+    width: 260px;
+    height: 100px;
+    border: 2px solid #56faff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
 /*.Res {border-radius: 10px;*/
 /*font-size: x-large;*/
 /*background-color: #2b7a7e;*/

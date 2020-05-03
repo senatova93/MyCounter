@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.module.css';
 import s from './Button.module.css'
+import Counter2 from "./Counter2";
 
 class App extends React.Component {
   state = {
@@ -72,6 +73,7 @@ class App extends React.Component {
                 </div>
                 </div>
             </div>
+                <Counter2/>
             </div>
         );
     }}
